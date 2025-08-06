@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.img1 {
+    position: relative;
+    background-image: url("../Img2/capa1.png");
+    text-align: center;
+    height: 100%;
+    /* opacity: 0.3; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 .titulo,
+.img2 .titulo2,
+.img3 .titulo3 {
+    top:50%;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 8px;
+    position: relative;
+    color: black; 
+    border-style:solid;
+    background-color: azure;
+
+}
+.txt1,
+.txt2,
+.txt3 {
+    background-color: rgb(243, 243, 201);
+    text-align: justify;
+    padding: 50px 80px;
+    border-style: double;
+}
+
+.img2 {
+    position: relative;
+    background-image: url("../Img2/img2.png");
+    text-align: center;
+    height: 100%;
+    opacity: 0.3;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    position: relative;
+    background-image: url("../Img2/img3.png");
+    text-align: center;
+    height: 100%;
+    opacity: 0.3;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
